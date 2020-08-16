@@ -15,7 +15,7 @@ class StarTech extends Site
         $this->parser = $this->loadUrl($this->baseUrl . '/');
 
         $categories = [];
-        foreach ($this->parser->find('ul.store_categories li') as $primeCategory) {
+        foreach ($this->parser->find('ul.responsive-menu li') as $primeCategory) {
             if ($aTag = $primeCategory->find('a')) {
                 $url = str_replace($this->baseUrl, '', $aTag[0]->href);
                 $categories[$url] = $aTag[0]->innertext;
