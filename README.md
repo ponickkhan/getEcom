@@ -1,6 +1,9 @@
 # getEcom
 A web data crawler for e-commerce in php
 
+![](https://img.shields.io/github/issues-pr/ponickkhan/getEcom?style=for-the-badge)
+
+
 How to scrape here?
 ===================
 
