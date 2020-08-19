@@ -25,10 +25,10 @@ To run tests and check each of the functions independantly you can use
 src/Commands/Test.php
 
 To run the program use:
-php index.php test --sites xxx
+`php index.php test --sites xxx`
 
 When the functions are done, we run it using:
-php index.php fetch --sites xxx
+`php index.php fetch --sites xxx`
 
 # Database Table 
 
